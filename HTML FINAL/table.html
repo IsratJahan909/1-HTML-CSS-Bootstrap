@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     table{
+        width: 70%;
+        border-collapse: collapse;
+        padding: 8px;
+     }
+
+     th, td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+     }
+
+     th{
+        background-color: bisque;
+     }
+
+     caption{
+        padding: 3px;
+        
+     }
+
+     td{
+        background-color: lightskyblue;
+     }
+    </style>
+</head>
+<body>
+<!-- <h2>Student Marks</h2> -->
+<table>
+    
+    <caption>Student Marks</caption>
+    <tr>
+        <th>Name</th>
+        <th>Math</th>
+        <Th>English</Th>
+        <th>Bangla</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td>Tanvir</td>
+        <td>80</td>
+        <td rowspan="3">90</td>
+        <td>90</td>
+        <td>270</td>
+    </tr>
+    
+    <tr>
+        <td>Ayan</td>
+        <td>50</td>
+        <td>40</td>
+        <td>170</td>
+    </tr>
+    <tr>
+        <td>Alif</td>
+        <td>60</td>
+        <td>70</td>
+        <td>300</td>
+    </tr>
+    <tr>
+       <td>Laila</td>
+        <td>90</td>
+        <td>60</td>
+        <td>90</td>
+        <td>320</td>
+    </tr>
+
+    <tr>
+        <td style="text-align: center;"colspan="4">Total</td>
+        <td>500</td>
+    </tr>
+</table>
+
+</body>
+</html>

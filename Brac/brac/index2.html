@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brac</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+<link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/svgs/solid/star.svg" type="image/svg+xml">
+<style>
+    .top-bar {
+      background-color: #ec008c;
+      color: white;
+      font-size: 14px;
+      padding: 5px 0;
+    }
+    .top-bar a {
+      color: white;
+      margin-right: 20px;
+      text-decoration: none;
+    }
+    .navbar-brand img {
+      height: 40px;
+    }
+    .donate-btn {
+      background-color: #ec008c;
+      color: white;
+      border: none;
+      padding: 6px 15px;
+      border-radius: 5px;
+    }
+    .search-box input {
+      border-radius: 0;
+      border-right: none;
+    }
+    .search-box button {
+      border-radius: 0;
+    }
+    .image-grid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .image-grid .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      color: white;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px;
+      font-size: 20px;
+    }
+    .image-container {
+      position: relative;
+      height: 100%;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar text-end px-4">
+    <a href="#">SDGS AND BRAC</a>
+    <a href="#">CAREER</a>
+    <a href="#">PRESS</a>
+  </div>
+
+  <!-- Main Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4">
+    <a class="navbar-brand" href="#">
+      <img src="logobrac.png" alt="brac logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WHO WE ARE</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About</a></li>
+            <li><a class="dropdown-item" href="#">Team</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WHAT WE DO</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Programs</a></li>
+            <li><a class="dropdown-item" href="#">Projects</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">WHERE WE WORK</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Bangladesh</a></li>
+            <li><a class="dropdown-item" href="#">International</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+      </ul>
+
+      <!-- Right Side: Donate + Search -->
+      <div class="d-flex align-items-center">
+        <button class="donate-btn me-3">Donate</button>
+        <div class="input-group search-box">
+          <input type="text" class="form-control" placeholder="Search...">
+          <button class="btn btn-outline-secondary"><i class="bi bi-search"></i>🔍</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </body>
+</html>
